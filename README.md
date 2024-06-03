@@ -18,5 +18,5 @@ base_model = AutoModelForCausalLM.from_pretrained("IlyaGusev/saiga_mistral_7b_me
 model = PeftModel.from_pretrained(base_model, "SouthMemphis/Saiga-lora-2048-2epochs")
 ```
 ## Как воспользоваться проектом с Web-интерфейсом?
-* Через VCS (version control system) создайте проект, скопировав ссылку () на репозитори.
-* Установить необходимые зависимости командой ```pip install requirmets.txt```
+* Через VCS (version control system) создайте проект, скопировав ссылку (https://github.com/SouthMemphis/project.git) на репозитори.
+* Установить необходимые зависимости командой ```pip install requirements.txt```

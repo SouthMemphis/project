@@ -32,5 +32,5 @@ with torch.no_grad():
     eval = result[result.find("Её суммаризация:") + len("Её суммаризация:") + 1:result.find("</s><s>") - 3]
     print(eval)
 ```
-
+Примеры работы модели можно найти в файле fine-tuning.ipynb
 

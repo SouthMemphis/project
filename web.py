@@ -125,7 +125,7 @@ def main(page: ft.Page):
 
     page.pubsub.subscribe(on_message)
 
-    # A dialog asking for a user display name
+    
     join_user_name = ft.TextField(
         label="Введите своё имя",
         autofocus=True,
@@ -147,7 +147,7 @@ def main(page: ft.Page):
         auto_scroll=True,
     )
 
-    # A new message entry form
+
     new_message = ft.TextField(
         hint_text="Напишите сообщение...",
         autofocus=True,
@@ -160,7 +160,7 @@ def main(page: ft.Page):
 
     )
 
-    # Add everything to the page
+    
     page.add(
         ft.Container(
             content=chat,

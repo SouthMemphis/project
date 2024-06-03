@@ -7,3 +7,4 @@
 Набор данных, на котором производилось обучение и оценка качества: IlyaGusev/gazeta
 
 ### Метрики качества обученной модели
+![изображение](https://github.com/SouthMemphis/project/assets/92672290/58b5f068-8deb-4f2b-b9d8-2d3b6a8e1fc1)

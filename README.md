@@ -8,3 +8,12 @@
 
 ### Метрики качества обученной модели
 ![изображение](https://github.com/SouthMemphis/project/assets/92672290/58b5f068-8deb-4f2b-b9d8-2d3b6a8e1fc1)
+### Использование модели из Hugging face:
+```
+from peft import PeftModel, PeftConfig
+from transformers import AutoModelForCausalLM
+
+config = PeftConfig.from_pretrained("SouthMemphis/Saiga-lora-2048-2epochs")
+base_model = AutoModelForCausalLM.from_pretrained("IlyaGusev/saiga_mistral_7b_merged")
+model = PeftModel.from_pretrained(base_model, "SouthMemphis/Saiga-lora-2048-2epochs")
+```
